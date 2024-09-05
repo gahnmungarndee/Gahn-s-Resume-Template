@@ -92,8 +92,8 @@
         {\textwidth}
         {l@{\extracolsep{\fill}}r}
     	{\bfseries #1 \textbar\space #2} & {\bfseries #3 - #4} \\
-            {#5} & \\
-            {{\footnotesize \itshape #6}} & \\
+            {#5}
+            \ifthenelse{\equal{#6}{}}{}{\\\footnotesize \itshape #6} & \\
     \end{tabular*}\vspace{-0.5em}
 
     \begin{itemize}
