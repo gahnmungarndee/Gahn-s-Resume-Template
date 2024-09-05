@@ -5,7 +5,7 @@
 % undergraduate student in Industrial   %
 % Engineering at Purdue University.     %
 %                                       %
-% Last updated on 9/14/2023             %
+% Last updated on 9/5/2024              %
 %                                       %
 % Contact at gahn@mungarndee.com.       %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -75,7 +75,7 @@
         {l@{\extracolsep{\fill}}r}
     	{\bfseries #1 \textbar\space {\small #2}} & {\bfseries #3 - #4} \\
             {#5\ifthenelse{\equal{#6}{}}{}{, #6}}
-            \ifthenelse{\equal{#7}{}}{}{\\{#7} & \\}
+            \ifthenelse{\equal{#7}{}}{}{\\#7}
     \end{tabular*}\vspace{-0.5em}
 
     \ifthenelse{\equal{#8}{}}{}{
@@ -92,8 +92,8 @@
         {\textwidth}
         {l@{\extracolsep{\fill}}r}
     	{\bfseries #1 \textbar\space #2} & {\bfseries #3 - #4} \\
-            {#5}
-            \ifthenelse{\equal{#6}{}}{}{\\\footnotesize \itshape #6} & \\
+            #5
+            \ifthenelse{\equal{#6}{}}{}{\\\footnotesize \itshape #6}
     \end{tabular*}\vspace{-0.5em}
 
     \begin{itemize}
@@ -108,7 +108,7 @@
         {\textwidth}
         {l@{\extracolsep{\fill}}r}
     	{\bfseries #1} & {\bfseries #2 - #3} \\
-            {#4} & \\
+            #4
     \end{tabular*}\vspace{-0.5em}
 
     \begin{itemize}
