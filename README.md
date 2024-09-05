@@ -65,8 +65,8 @@ This is where you can customize the names of your section headings.
     {<end date>}
     {<degree>}
     {<minors (optional)>}
-    {additional curricula (option)}
-    {<involvement and honors (optional)}
+    {<additional curricula (optional)>}
+    {<involvement and honors (optional)>}
 ```
 This is where you'll input information for your education. You can use a module for each education you'd like to list. For options that are optional and you do not want to use them, format like this
 ```
@@ -86,7 +86,7 @@ This is where you'll input information for your education. You can use a module 
 #### Work Modules 
 ```
 \work
-    {<company name>} % Company nae
+    {<company name>} % Company name
     {<company location>} % Location worked
     {<start date>}
     {<end date>}
