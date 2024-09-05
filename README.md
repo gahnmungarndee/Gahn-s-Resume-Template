@@ -91,6 +91,7 @@ This is where you'll input information for your education. You can use a module 
     {<start date>}
     {<end date>}
     {<job title>}
+    {<experience context>}
     {
         \newitem bulletpoint 1
 

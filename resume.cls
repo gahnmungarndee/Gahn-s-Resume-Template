@@ -87,17 +87,18 @@
 }
 
 % Work Info
-\newcommand{\work}[6]{
+\newcommand{\work}[7]{
     \begin{tabular*}
         {\textwidth}
         {l@{\extracolsep{\fill}}r}
-    	{\bfseries #1 \textbar\space {\small #2}} & {\bfseries #3 - #4} \\
+    	{\bfseries #1 \textbar\space #2} & {\bfseries #3 - #4} \\
             {#5} & \\
+            {{\footnotesize \itshape #6}} & \\
     \end{tabular*}\vspace{-0.5em}
 
     \begin{itemize}
         \setlength\itemsep{0em}
-        #6
+        #7
     \end{itemize}
 }
 
