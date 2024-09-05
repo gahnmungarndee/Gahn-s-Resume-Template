@@ -12,7 +12,7 @@
 
 % Class Identification
 \NeedsTeXFormat{LaTeX2e} % Sets required LaTeX version
-\ProvidesClass{resume}[2023/09/14 Resume class] % Defines this class
+\ProvidesClass{resume}[2024/09/05 Resume class] % Defines this class
 
 % Define Paper Properties
 \LoadClass{article} % Import article class
