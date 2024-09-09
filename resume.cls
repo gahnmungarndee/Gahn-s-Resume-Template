@@ -5,14 +5,14 @@
 % undergraduate student in Industrial   %
 % Engineering at Purdue University.     %
 %                                       %
-% Last updated on 9/5/2024              %
+% Last updated on 9/9/2024              %
 %                                       %
 % Contact at gahn@mungarndee.com.       %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Class Identification
 \NeedsTeXFormat{LaTeX2e} % Sets required LaTeX version
-\ProvidesClass{resume}[2024/09/05 Resume class] % Defines this class
+\ProvidesClass{resume}[2024/09/09 Resume class] % Defines this class
 
 % Define Paper Properties
 \LoadClass{article} % Import article class
@@ -76,12 +76,12 @@
     	{\bfseries #1 \textbar\space {\small #2}} & {\bfseries #3 - #4} \\
             {#5\ifthenelse{\equal{#6}{}}{}{, #6}}
             \ifthenelse{\equal{#7}{}}{}{\\#7}
-    \end{tabular*}\vspace{-0.5em}
+    \end{tabular*}\vspace{-0.25em}
 
     \ifthenelse{\equal{#8}{}}{}{
         \begin{itemize}
             \setlength\itemsep{-0.5em}
-            \newitem \textbf{Involvement \& Honors:} #8
+            \newitem \textbf{Activities:} #8
         \end{itemize}
     }
 }
@@ -93,9 +93,10 @@
         {l@{\extracolsep{\fill}}r}
     	{\bfseries #1 \textbar\space #2} & {\bfseries #3 - #4} \\
             #5
-            \ifthenelse{\equal{#6}{}}{}{\\\footnotesize \itshape #6}
-    \end{tabular*}\vspace{-0.5em}
-
+    \end{tabular*}
+    {\ifthenelse{\equal{#6}{}}{\vspace{-0.75em}}{\vspace{-0.75em}\\\hspace*{0.5em}\footnotesize\itshape #6}}
+    
+    
     \begin{itemize}
         \setlength\itemsep{0em}
         #7
@@ -109,7 +110,7 @@
         {l@{\extracolsep{\fill}}r}
     	{\bfseries #1} & {\bfseries #2 - #3} \\
             #4
-    \end{tabular*}\vspace{-0.5em}
+    \end{tabular*}\vspace{-0.25em}
 
     \begin{itemize}
         \setlength\itemsep{0em}
