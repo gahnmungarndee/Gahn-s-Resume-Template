@@ -1,13 +1,12 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %             Resume Class              %
 %                                       %
-% Developed by Gahn Mungarndee,         %
-% undergraduate student in Industrial   %
-% Engineering at Purdue University.     %
+% Developed by Gahn Mungarndee          %
 %                                       %
-% Last updated on 9/9/2024              %
+% Last updated on 1/29/2025             %
 %                                       %
 % Contact at gahn@mungarndee.com.       %
+% https://gahn.me                       %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Class Identification
@@ -108,8 +107,7 @@
     \begin{tabular*}
         {\textwidth}
         {l@{\extracolsep{\fill}}r}
-    	{\bfseries #1} & {\bfseries #2 - #3} \\
-            #4
+    	{\bfseries #1} - #4 & {\bfseries #2 - #3}
     \end{tabular*}\vspace{-0.25em}
 
     \begin{itemize}
